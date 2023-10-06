@@ -6,6 +6,7 @@ function Select({
     className="",
     ...props
 }, ref) {
+  const id = useId()
   return (
     <div className='w-full'>
       {label && <label htmlFor={id} className=''></label>}
